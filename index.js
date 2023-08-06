@@ -21,7 +21,7 @@ app.get("/contact", (req, res) => {
 app.post("/contact",async  (req, res) => {
 
     try{
-        console.log(req.body);
+     
       
       const form=new Form(req.body)
       await form.save();
@@ -34,5 +34,5 @@ app.post("/contact",async  (req, res) => {
 })
 
 app.listen(process.env.PORT, (err) => {
-    console.log("listenins")
+    
 })
