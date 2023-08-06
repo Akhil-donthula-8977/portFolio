@@ -1,10 +1,10 @@
 require('dotenv').config()
 const express = require("express")
-const mongoose=require("./mongoose/mongoose");
+const mongoose=require("./src/mongoose/mongoose");
 const bodyParser = require("body-parser");
 const ejs = require("ejs")
 const app = express();
-const Form=require("./models/form.js")
+const Form=require("./src/models/form")
 
 
 //body-parser extracts the entire body portion of an incoming request stream and exposes it on req.body.
