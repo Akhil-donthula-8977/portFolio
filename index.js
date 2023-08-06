@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require("express")
-const mongoose=require("./src/mongoose/mongoose");
+const mongoose=require("./mongoose/mongoose");
 const bodyParser = require("body-parser");
 const ejs = require("ejs")
 const app = express();
