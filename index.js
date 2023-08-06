@@ -28,7 +28,7 @@ app.post("/contact",async  (req, res) => {
       res.status(200).redirect("/")
     }catch(e){
      
-        res.status(400).send("400 bad request :(")
+        res.status(400).send("400 bad requestt :(")
     }
   
 })
