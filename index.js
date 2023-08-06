@@ -4,7 +4,7 @@ const mongoose=require("./src/mongoose/mongoose");
 const bodyParser = require("body-parser");
 const ejs = require("ejs")
 const app = express();
-const Form=require("./src/models/form")
+const Form=require("./models/form")
 
 
 //body-parser extracts the entire body portion of an incoming request stream and exposes it on req.body.
