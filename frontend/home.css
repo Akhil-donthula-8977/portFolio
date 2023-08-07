@@ -308,6 +308,8 @@ footer{
         height: 1400px;
         margin-top: 10px;
         border-radius: 10px;
+        position: relative;
+        left: 40px;
 
 
     }
